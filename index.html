@@ -52,8 +52,9 @@
     </script>    
 </head>
 <body>
-<div id="main-wrapper">
 <div class="loader"></div>
+
+<div id="main-wrapper">
 <div class="uc-mobile-menu-pusher">
 
 <div class="content-wrapper">
@@ -96,7 +97,11 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="img/hero-slide-2.jpg" alt="...">
+			<picture style="max-width: 100%">
+			  <source srcset="img/hero-slide-2.webp" type="image/webp">
+			  <source srcset="img/hero-slide-2.jpg" type="image/jpeg"> 
+			  <img src="img/hero-slide-2.jpg" alt="JSS Ground" style="max-width: 100%">
+			</picture>
 
             <div class="carousel-caption">
                 <h1>7th Annual Sports Meet 2017</h1>
@@ -621,7 +626,6 @@
 
 
 <!-- Script -->
-<script src="js/jquery-2.1.4.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
