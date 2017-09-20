@@ -896,15 +896,17 @@ Team
 .footer .footer-widget .social-links li a {
     display          : block;
     font-size        : 20px;
-    width            : 42px;
-    height           : 42px;
+    width            : 100px;
     color            : #6b6b6b;
     background-color : #4a4a4a;
     line-height      : 42px;
     text-align       : center;
     border-radius    : 50%;
     }
-
+.footer-image {
+    border-radius    : 50%;
+    }
+    
 .footer .footer-widget .social-links li a:hover {
     color            : #ffffff;
     background-color : #31aae2;
